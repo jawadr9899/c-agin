@@ -1,4 +1,4 @@
-# Agin String Library
+# Agin
 
 ## Overview
 Agin is a comprehensive string manipulation library for the C programming language. It provides a dynamic string structure and a wide variety of functions to simplify text processing tasks. C developers can use Agin for memory management and utility functions that expand upon the standard library.
@@ -49,6 +49,11 @@ The library includes numerous functions for string manipulation. Core capabiliti
 * `slice`: Extracts a portion of the string.
 * `toNumber`: Converts the string to a numeric value.
 * `getASCIILetters`, `getPunctuations`: Generates specific character sets.
+
+## Disadvantages
+* The main disadvantage of this library is that its not memory efficient and uses optimized algorithms
+* The library is built around traditional and some modified(for strings) algorithms 
+
 
 ## Usage
 Include the header file in your C program:
